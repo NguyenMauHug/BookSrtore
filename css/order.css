@@ -1,0 +1,123 @@
+body {
+  background-color: #fff;
+  display: flex;
+  margin: auto
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
+}
+
+#overview {
+  width: 50%
+}
+
+#form {
+  width: 100%
+}
+
+img {
+  padding: 0%;
+  width: 250%;
+}
+
+form {
+  display: block;
+  margin: auto;
+  padding: 10%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.menu {
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/316787958_1087088998645049_3615156381373463481_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=QCoIE6h66msAX8pHkhc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ66-09WCeJKtUwgdoycfVLryewTC9xvhZutUmH8n75JA&oe=63AEEC7A);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  img {
+    display: block
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-weight: 600;
+  font-family: 'HelveticaNeue';
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+}
+
+.intro {
+  height: 90vh;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3em;
+  display: block;
+  color: rgb(21, 14, 14);
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #0f0f10;
+}
+
+a {
+  font-weight: 700;
+  color: #373B44;
+  position: relative;
+}
+
+a:active {
+  top: 1px;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+footer {
+  padding: 1% 5%;
+  text-align: center;
+  background-color: #373B44;
+  color: rgb(14, 13, 13);
+}
+
+footer a {
+  color: #FE4B74;
+  font-weight: 500;
+  text-decoration: none;
+}
